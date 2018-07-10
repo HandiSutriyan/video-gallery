@@ -43,8 +43,8 @@ export default class Front2 extends Component{
 					<div className='row '>
 						{videos.map((item,i)=>{
 						return(
-							<div className=' d-flex flex-row justify-content-start col-md-3 ' style={{marginBottom:'10px'}}>
-								<img src={item} className="img img-fluid"/>
+							<div className=' d-flex flex-row justify-content-start col-md-3 px-0 px-1' style={{marginBottom:'10px'}}>
+								<img src={item} className="img img-fluid" width='330px' height='220' style={{objectFit:'cover'}}/>
 							</div>
 							)
 						})}
