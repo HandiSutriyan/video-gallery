@@ -1,2 +1,3 @@
 # video-gallery
-soal tes seleksi front-end
+Project ini dibuat dengan boilerplate ReactPWA, dan untuk framework user interfacenya menggunakan boostrap 4
+
